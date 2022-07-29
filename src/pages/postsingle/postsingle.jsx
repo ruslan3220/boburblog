@@ -37,7 +37,7 @@ export const PostSingle = () =>{
                         <img style={{marginLeft: '130px'}} src={sharepic} alt="share pic" />
                    </div>
 
-                    <div className="col-6">
+                    <div className="col-9">
                         <p style={{color: ' #777777', fontWeight: '400', fontSize: '12px', marginBottom: '24px'}} >User interface</p>
                      <Link style= {{textDecoration: 'none'}} to={`/post/${post.id}`}>
                              <p style={{color: '#474747', fontWeight: '400', fontSize: '24px', width: '544px', marginBottom: '25px'}}>{post.title} </p>

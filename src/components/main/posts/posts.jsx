@@ -31,6 +31,7 @@ export const Posts =()=>{
                     <Mydoing/>
                 </div>
                 <div className="col-8">
+               <h3 style={{marginBottom: '58px',color: '#474747', fontWeight: '400', fontSize: '24px'}}>Recent Posts</h3>
                 {posts.length >= 0 && <ul className="list-unstyled"> {posts.slice(0, 20).map((post) =>(
                  <li key={post.id}>
                     <div style={{marginBottom: '20px'}} className="d-flex justify-content-between">

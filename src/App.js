@@ -1,7 +1,7 @@
 import { useAuth } from "./hooks/useAuth";
 import { PrivateApp } from "./private-app";
 import { PublicApp } from "./public-app";
-import "./App.scss";
+
 function App() {
  const [token] = useAuth()
 
